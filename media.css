@@ -1,0 +1,206 @@
+@media (max-width: 990px){
+    .header{
+        height: 400px;
+        background-position-y: top;
+    }
+        
+    .header_h1{
+        font-size: 40px;   
+        padding-bottom: 30px;
+    }
+    .header_h2{
+        font-size: 30px;
+    }
+    .header_h3{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+
+    .footer_logo{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 768px){  
+/********** header ***********/
+.header{
+    height: 400px;
+    padding-top: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-position: top;
+    background-color:#148fd5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header_logo{
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 20px;
+    margin: 0px;
+}
+
+.header_h1{
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.header_h2{
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.header_h3{
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.header_contact{
+    font-size: 15px;
+}
+.header_contact > a{
+    color: #FFFFFF;
+}
+
+/************** main************/
+.main_p{
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+}
+.main_benefit_section{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main_h3{
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.main_benefit > div{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.main_benefit > div:first-child{
+    margin-bottom: 15px;
+}
+
+.main_benefit > div p{
+    text-align: center;
+    font-size: 15px;
+    
+}
+ul > li{
+    font-size: 12px;
+}
+
+.main_benefit_section_gif{
+    text-align: center;
+    margin-left: 0px;
+    width: 80px;
+    height: 80px;
+    
+}
+.main_benefit_section_img{
+    text-align: center;
+    margin-left: 0px;
+}
+
+/*********** main_character_section *********/
+
+.main_character_section{
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.main_character_text{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 15px;
+}
+.main_character{
+    text-align: center;
+}
+.main_character > div{
+    display: block;
+    width: auto;
+}
+.main_character > div:first-child{
+    text-align: center;
+}
+.main_character > div:last-child{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.main_character_h2{
+    font-size: 20px;
+}
+/******* SPORTs training ********/
+.main_sportstraining_container_text > h3{
+    font-size: 15px;
+    line-height: 15px;
+}
+.main_sportstraining_container_p{
+    font-size: 15px;
+    line-height: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main_sportstraining_container{
+    height: auto;
+}
+.mySlides > img{
+    height: auto;
+}
+div.column > img{
+    height: auto;
+    
+}
+/********** PRICE ********/
+.main_priсe{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.main_price_h3{
+    font-size: 20px;
+}
+.main_price_table{
+    font-size: 15px;
+}
+
+/******** footer ********/
+.footer{
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+.footer_contact{
+    font-size: 15px;
+}
+.footer_adress{
+    font-size: 15px;
+}
+
+.footer_logo{
+    width: 40px;
+    height: 40px;
+    top:10px;
+    right: 10px;
+}
+
+
+
+
+
+
+}
+

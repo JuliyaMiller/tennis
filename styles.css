@@ -1,0 +1,369 @@
+* {
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: normal;
+}
+.body{
+    max-width: 1280px;
+    width: 100%;
+    background-color: rgba(217, 217, 243, 0.863);
+}
+.header{
+    max-width: 1280px;
+    height: 500px;
+    background-image: url('./img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-top: 50px;
+    padding-left: 70px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+    position: relative;
+}
+.header_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 40px; 
+}
+.header_h1{
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #444446; 
+}
+.header_h2{
+    padding-left: 90px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.header_h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(21, 40, 75);
+    margin-bottom: 100px;
+}
+.header_contact > a{
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #444446;
+}
+
+/********************* main *******************/
+.main_p{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    color: rgb(14, 10, 14);
+    margin-bottom: 50px;
+}
+
+.main_benefit_section{
+    max-width: 1000px;
+    min-height: 575px;
+    padding-top: 40px;
+    background-color: rgb(186, 235, 236);
+    border-radius: 10px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+    
+}
+.main_h3{
+    text-align: center;
+    color: rgb(116, 10, 165);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.main_benefit{
+    max-width: 1000px;
+}
+.main_benefit > div{
+    display: inline-block;
+    vertical-align: top;
+}
+.main_benefit_physical{
+    width: 38%;
+}
+.main_benefit_psychotherapeutic{
+    width: 61%;
+    padding-left: 5px;
+}
+.main_benefit > div p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;  
+    color: black;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+ul > li{
+    font-size: 15px;
+    line-height: 30px;
+    list-style-type: disc;
+}
+li:hover{
+    font-weight: 700;
+}
+
+.main_benefit_section_img{
+    width: 280px;
+    height: 160px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.main_benefit_section_gif{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-left: 200px;
+  
+}
+/******************************/
+.main_character_section{
+    max-width: 1000px;
+    height: auto;
+    background-color: rgb(243, 210, 161);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 80px;
+}
+.main_character_text{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 100px;
+}
+.main_character{
+    width: 100%;
+}
+
+.main_character > div{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding-top: 25px;
+    text-align: left;
+}
+.main_character > div:first-child{
+    text-align: right;
+}
+.main_character > div:last-child{
+    padding-top: 0px;
+    text-align: center;
+}
+.main_img_left{
+    width: 210px;
+    height: 160px;
+    border-radius: 10px;
+}
+.main_img_right{
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+}
+.main_character_h2{
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(88, 13, 122);
+}
+
+/******************************** SPORTs training *****************/
+.main_sportstraining_container_text{
+    padding-bottom: 25px;
+    text-align: center;
+    
+}
+.main_sportstraining_container_text > h3{    
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    font-style: italic;
+    color: blue;
+}
+
+.main_sportstraining_container_p{
+    font-size: 24px;
+    line-height: 2em;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    padding: 0px 140px;
+    text-align: left;
+}
+
+.main_sportstraining_container{
+    max-width: 1000px;
+    height: 805px;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+.mySlides > img{
+    border-radius: 10px;
+    height: 630px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+  
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 11.1%;
+}
+
+div.column > img{
+      height: 74px;
+      border: solid #f2f2f2 1px;
+}
+  
+  /* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+/*************************** PRICE *****************************/
+.main_priсe{
+    max-width: 800px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.main_price_table{
+    border: 10;
+}
+td {
+    border: 1px solid grey;
+}
+.main_price_h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(116, 10, 165);
+    margin-bottom: 20px;
+}
+.main_price_table{
+    width: 100%;
+    height: 250px;
+    border: blueviolet 10px double;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.td_text{
+    text-align: left;
+    padding-left: 20px;
+}
+.td_price{
+    font-weight: 700;
+}
+.tr_table:hover{
+    font-weight: 700;
+    color: rgba(240, 14, 14, 0.932);
+}
+
+/********************* footer *********************/
+.footer{
+    max-width: 1280px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #444446;
+    background-image: url('./img/footer_fon2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+.footer_contact{
+    margin-bottom: 150px;
+}
+a.footer_contact{
+    color: #FFFFFF;
+}
+
+.footer_adress > a{
+    color: #FFFFFF;
+    font-weight: 500;
+}
