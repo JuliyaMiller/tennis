@@ -113,7 +113,9 @@ ul > li{
 }
 .main_benefit_section_img{
     text-align: center;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
 
 /*********** main_character_section *********/

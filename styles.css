@@ -116,19 +116,19 @@ li:hover{
     font-weight: 700;
 }
 
-.main_benefit_section_img{
-    width: 280px;
-    height: 160px;
-    border-radius: 10px;
-    margin-left: 150px;
-    margin-top: 40px;
-}
 .main_benefit_section_gif{
     width: 110px;
     height: 110px;
     border-radius: 50%;
     margin-left: 200px;
   
+}
+.main_benefit_section_img{
+    width: 280px;
+    height: 160px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
 }
 /******************************/
 .main_character_section{
