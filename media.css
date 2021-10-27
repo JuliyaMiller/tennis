@@ -188,8 +188,9 @@ div.column > img{
 }
 .footer_adress{
     font-size: 15px;
-    -webkit-text-stroke-width: none;
-    -webkit-text-stroke-color: none;
+}
+.footer_adress a{
+    -webkit-text-stroke-color: #FFFFFF;
 }
 
 .footer_logo{
@@ -198,11 +199,6 @@ div.column > img{
     top:10px;
     right: 10px;
 }
-
-
-
-
-
 
 }
 
