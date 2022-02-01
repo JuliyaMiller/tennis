@@ -322,6 +322,7 @@ td {
 .td_text{
     text-align: left;
     padding-left: 20px;
+    font-weight: 700;
 }
 .td_price{
     font-weight: 700;
