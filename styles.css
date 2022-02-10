@@ -36,7 +36,7 @@
     font-size: 50px;
     font-weight: 700;
     font-style: normal;
-    text-shadow: 3px -2px blue, 1px 1px #fff;
+    text-shadow: 3px -2px blue, 1px 1px rgb(151, 144, 144);
 }
 .header_h2{
     padding-left: 90px;
@@ -53,7 +53,7 @@
 }
 .header_contact > a{
     color: #FFFFFF;
-    text-shadow: 3px -2px blue, 1px 1px #fff;
+    text-shadow: 3px -2px blue, 1px 1px rgb(151, 144, 144);
 }
 
 /********************* main *******************/
@@ -340,7 +340,7 @@ td {
     padding-bottom: 20px;
     font-size: 22px;
     color: #FFFFFF;
-    text-shadow: 3px -2px rgb(36, 36, 92), 1px 1px #fff;
+    text-shadow: 3px -2px rgb(36, 36, 92), 1px 1px rgb(124, 109, 109);
     background-image: url('./img/footer_fon2.jpg');
     background-repeat: no-repeat;
     background-position: center;
